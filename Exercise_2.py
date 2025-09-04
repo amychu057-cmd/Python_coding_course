@@ -1,15 +1,16 @@
 # Create two variables to store the title and artist of a song
-Title = "What else can I do"
-Artist = "Mirabel and Isabella"
+Title = "Daisies"
+Artist = "Justin Bieber"
 
 # Create a formatted string to display the message
 Message = "My favourite song is {} by {}".format(Title, Artist)
 print(Message)
 
 # Create a list called "playlist" that contains three song titles of your choice
-playlist = ['Dos Oruguitas', 'Surface Pressure', 'We dont talk about Bruno']
+playlist = ['The Subway', 'Jump', 'Messy']
 
 # Add a new song to the playlist using .extend()
-playlist.extend(["Waiting on a miracle", "All of you"])
+playlist.extend(["Die with a smile", "Birds of a feather"])
 
 print(playlist)
+
